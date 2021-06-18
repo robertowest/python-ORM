@@ -38,4 +38,5 @@ Prueba
 
 Carga da datos iniciales
 ------------------------
-+ Ejecutamos el script main.py para cargar datos de ejemplo `python ejemplo.py`
++ Ejecutamos el script para cargar datos de ejemplo `python ejemplo.py`
++ Ejecutamos el script para consultas en db `python ejemplo2.py`
