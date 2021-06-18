@@ -35,3 +35,9 @@ for obj in books:
 books = Book.objects.all().prefetch_related("authors")
 for obj in books:
     print( obj.title, obj.authors.all() )
+
+
+# mejorando las queries
+# evitar de traer datos innecesarios
+# si solo necesitamos el título del libro y el nombre del editor, prodríamos realizar la query
+# Book.objects.all().select_related("publisher").values('title', 'publisher_name')
